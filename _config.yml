@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://<username>.github.io
+url:                   https://bayudwiyansatria.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -12,7 +12,7 @@ url:                   https://<username>.github.io
 # Use the empty string '' otherwise.
 # For GitHub project sites, this is usually the name of the project,
 # e.g. `/hydejack`.
-baseurl:               ''
+baseurl:               '/nginx-external-lb-k8s-ha'
 
 
 # General settings
@@ -23,19 +23,18 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 Bayu Dwiyan Satria
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Nginx Load Balancing As Kubernetes High Availibility Multi Master
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               Nginx External Load Balancing For Kubernetes (k8s) HA
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              ["load balancing", "nginx", "k8s", "kubernetes" ]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -45,14 +44,14 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Bayu Dwiyan Satria
+  email:               <bayudwiyansatria@gmail.com>
   # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             bayudsatria
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
+  - title:             Projects
     url:               /example/
   - title:             Documentation
     url:               /docs/
@@ -101,7 +100,7 @@ collections:
 # ---------------------------------------------------------------------------------------
 
 theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9.0.0-rc.6
+remote_theme: hydecorp/hydejack@v9.0.4
 
 
 # Customizaton
@@ -337,15 +336,15 @@ plugins:
 # Where you proof that you own this site (used by jekyll-seo-tag)
 # google_site_verification: <verification-id>
 # -- or --
-# webmaster_verifications:
-#   google:              <verification-id>
+webmaster_verifications:
+  google:              KeShz0mJ0zIemJeFTniytEWC8xS1TPM3ue4NkxTvmc8
 #   bing:                <verification-id>
 #   alexa:               <verification-id>
 #   yandex:              <verification-id>
 
 # Used for twitter cards
-# twitter:
-#   username:            <username>
+twitter:
+  username:            bayudsatria
 
 # Used for facebook open graph
 # facebook:
@@ -354,11 +353,14 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:                Bayu Dwiyan Satria
+  links:
+    - https://twitter.com/bayudsatria
+    - https://github.com/bayudwiyansatria
+    - https://linkedin.com/in/bayudwiyansatria
+    - https://www.facebook.com/PBayuDSatria
+    - https://www.instagram.com/bayudwiyansatria
 
 
 # Plugin Configs
